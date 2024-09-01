@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.jobs input {
+    border-radius: 7px;
+    -webkit-appearance: none !important;
+}
+
+.jobs input[type=checkbox]:checked {
+    -webkit-appearance: checkbox !important;
+}
+
+.jobs input[type=checkbox] {
+    accent-color: #212D4E !important;
+    background-color: #212D4E !important;
+}
+
+body {
+    background-color: #2B2863;
+    max-width: 1440px;
+    margin: auto;
+    width: 90%;
+    color: white;
+}
+
+.ql-toolbar.ql-snow {
+    background-color: #45435FBF;
+    border: none;
+}
+
+.ql-container.ql-snow {
+    border: 1px solid #2a1848;
+    background-color: #2a1848;
+    color: white;
+}
+
+.ql-editor {
+    min-height: 150px;
+    color: white;
+}
+
+.ql-toolbar .ql-formats button .ql-stroke {
+    stroke: #FFFFFF !important;
+}
+
+.ql-toolbar .ql-formats button .ql-fill {
+    fill: #FFFFFF !important;
+}
+
+.ql-toolbar .ql-formats button.ql-active .ql-stroke {
+    stroke: #9a8bb8 !important;
+}
+
+.ql-toolbar .ql-formats button.ql-active .ql-fill {
+    fill: #9a8bb8 !important;
+}
+
+
+.ql-toolbar .ql-formats button:hover .ql-stroke {
+    stroke: #9a8bb8 !important;
+}
+
+.ql-toolbar .ql-formats button:hover .ql-fill {
+    fill: #9a8bb8 !important;
+}
+
+.ql-toolbar .ql-picker-label::before,
+.ql-toolbar .ql-picker-label::after {
+    border-color: #FFFFFF !important;
+}
+
+.ql-toolbar .ql-picker .ql-stroke,
+.ql-toolbar .ql-picker .ql-fill {
+    stroke: #FFFFFF !important;
+    fill: #FFFFFF !important;
+}
+
+.stdropdown-item {
+    background-color: #130035;
+
+}
+
+.stdropdown-input input {
+    border-style: none;
+    background-color: #130035;
+
+}
+
+
+
+.boxs {
+    display: flex;
+    padding: var(--gap-6, 19.5px) var(--Candidates-Selections, 0px) var(--Candidates-Selections, 0px) var(--gap-6, 19.5px);
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
