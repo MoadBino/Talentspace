@@ -3,9 +3,7 @@ import LinkedIn from "../assets/LinkedIn";
 import Bayt from "../assets/Bayt";
 const HiringAndPublishing = () => {
   return (
-    <div className="">
-      <hr className="border-border mb-[10px] " />
-
+    <div className="p-5">
       <div className="mb-4">
         <label className="block text-sm font-medium mb-2">
           Select hiring agent <span className="text-red-500">*</span>
@@ -27,7 +25,7 @@ const HiringAndPublishing = () => {
               email: "mylinkedinaccount@email.com",
               icon: <LinkedIn />,
             },
-            { name: "Bayt", email: "mybayt@email.com", icon: <Bayt/> },
+            { name: "Bayt", email: "mybayt@email.com", icon: <Bayt /> },
             { name: "Indeed", email: "mybayt@email.com", icon: "🔍" },
             {
               name: "Glassdoor",

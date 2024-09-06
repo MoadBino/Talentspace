@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
-const  JobInformation = ({ setjobDraft, jobDraft }) => {
+const JobInformation = ({ setjobDraft, jobDraft }) => {
   const [w, setW] = useState("50%");
   const [content, setContent] = useState("");
 
@@ -31,14 +31,14 @@ const  JobInformation = ({ setjobDraft, jobDraft }) => {
   ];
 
   return (
-    <>
-      <div className="mb-6">
-        <label className="block text-gray-400 mb-2" htmlFor="job-title">
+    <div className="px-[29px]">
+      <div className="mb-6  ">
+        <label className="block FLT mb-2" htmlFor="job-title">
           Job title <span className="text-red-500">*</span>
         </label>
         <input
-          onChange={() => {
-
+          onChange={(e) => {
+            setjobDraft({ ...jobDraft, title: e.target.value });
           }}
           name="job-title"
           type="text"
@@ -47,13 +47,15 @@ const  JobInformation = ({ setjobDraft, jobDraft }) => {
         />
       </div>
       <div className="mb-6">
-        <label className="block text-gray-400 mb-2" htmlFor="job-post">
+        <label className="block FLT mb-2" htmlFor="job-post">
           Job post <span className="text-red-500">*</span>
         </label>
-        <div className="bg-main  rounded-lg">
+        <div className="  rounded-lg">
           <ReactQuill
-            value={content}
-            onChange={setContent}
+            value={jobDraft.description}
+            onChange={(e) => {
+              setjobDraft({ ...jobDraft, description: e });
+            }}
             modules={modules}
             formats={formats}
             placeholder="Type here"
@@ -62,7 +64,7 @@ const  JobInformation = ({ setjobDraft, jobDraft }) => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

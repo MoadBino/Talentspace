@@ -101,3 +101,143 @@ body {
     flex: 1 0 0;
     align-self: stretch;
 }
+
+.THT {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+hr {
+    border-color: #3F425480;
+}
+
+.TBT {
+    overflow: hidden;
+    color: var(--Typography-Main, #FCFCFC);
+    text-overflow: ellipsis;
+    /* REM/fs-5-semi */
+
+    font-size: 14.95px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.95px;
+    /* 100% */
+    letter-spacing: 0.299px;
+}
+
+.DTH {
+    color: var(--Typography-Main, #FCFCFC);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 100% */
+}
+
+
+.FLT {
+    color: var(--Typography-Main, #FCFCFC);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.LIT {
+    color: var(--Typography-Main, #FCFCFC);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.18px;
+}
+
+
+.SideBarText {
+    overflow: hidden;
+    color: var(--Typography-Main, #FCFCFC);
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 14.95px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.299px;
+}
+
+.JobInfoP p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    /* 161.538% */
+    color: #9A9CAE;
+    padding-bottom: 8px;
+}
+
+
+.JobInfoP h6 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.loginHeader {
+    /* Heading/H-20-20-600 */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 100% */
+    letter-spacing: -0.2px;
+
+}
+
+.loginBox {
+    /* Heading/H-20-20-600 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 100% */
+    letter-spacing: -0.2px;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+.element {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.element:hover {
+    background-color: rgba(110, 30, 247, 0.3);
+    /* This is the hex color #6E1EF74D in rgba format */
+}
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+

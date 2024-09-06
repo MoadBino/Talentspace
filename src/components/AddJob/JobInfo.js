@@ -59,7 +59,7 @@ const JobInfoPage = () => {
                   src="path/to/jordan-flag.png"
                   alt="Jordan"
                   className="w-5 h-5"
-                />
+                /> 
                 Jordan
               </span>
               <span className="flex items-center gap-1">
